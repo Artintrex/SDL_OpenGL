@@ -52,13 +52,13 @@ int main(int argc, char* args[])
 
 			
 
-			vertex[0].Position = MakeFloat3(-100.0f, -100.0f, 0.0f);
-			vertex[1].Position = MakeFloat3(100.0f, -100.0f, 0.0f);
-			vertex[2].Position = MakeFloat3(-100.0f, 100.0f, 0.0f);
-			vertex[3].Position = MakeFloat3(100.0f, 100.0f, 0.0f);
+			vertex[0].Position = MakeFloat3(-128.0f, -64.0f, 0.0f);
+			vertex[1].Position = MakeFloat3(128.0f, -64.0f, 0.0f);
+			vertex[2].Position = MakeFloat3(-128.0f, 64.0f, 0.0f);
+			vertex[3].Position = MakeFloat3(128.0f, 64.0f, 0.0f);
 
 			vertex[0].Color = MakeFloat4(1.0f, 1.0f, 1.0f, 1.0f);
-			vertex[1].Color = MakeFloat4(1.0f, 1.0f, 0.0f, 1.0f);
+			vertex[1].Color = MakeFloat4(1.0f, 1.0f, 1.0f, 1.0f);
 			vertex[2].Color = MakeFloat4(1.0f, 1.0f, 1.0f, 1.0f);
 			vertex[3].Color = MakeFloat4(1.0f, 1.0f, 1.0f, 1.0f);
 
