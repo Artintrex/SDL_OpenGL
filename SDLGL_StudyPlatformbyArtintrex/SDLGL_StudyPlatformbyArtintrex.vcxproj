@@ -70,16 +70,16 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)\glew-2.1.0\include;$(SolutionDir)\stb;$(SolutionDir)\SDL2-2.0.9\include;$(SolutionDir)\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\glew-2.1.0\lib\Win32;$(SolutionDir)\SDL2-2.0.9\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\libs\glew-2.1.0\include;$(SolutionDir)\libs\stb;$(SolutionDir)\libs\SDL2-2.0.9\include;$(SolutionDir)\libs\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib\Win32;$(SolutionDir)\libs\SDL2-2.0.9\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(SolutionDir)\glew-2.1.0\include;$(SolutionDir)\stb;$(SolutionDir)\SDL2-2.0.9\include;$(SolutionDir)\glm;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\glew-2.1.0\lib\Win32;$(SolutionDir)\SDL2-2.0.9\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)\glew-2.1.0\include;$(SolutionDir)\stb;$(SolutionDir)\SDL2-2.0.9\include;$(SolutionDir)\glm;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\glew-2.1.0\lib\x64;$(SolutionDir)\SDL2-2.0.9\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\libs\glew-2.1.0\include;$(SolutionDir)\libs\stb;$(SolutionDir)\libs\SDL2-2.0.9\include;$(SolutionDir)\libs\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib\x64;$(SolutionDir)\libs\SDL2-2.0.9\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir)\glew-2.1.0\include;$(SolutionDir)\stb;$(SolutionDir)\SDL2-2.0.9\include;$(SolutionDir)\glm;$(IncludePath)</IncludePath>
