@@ -23,6 +23,7 @@
     <ProjectGuid>{E7EA7CEB-7A1A-4332-9038-DA2E973F9D79}</ProjectGuid>
     <RootNamespace>SDLGLStudyPlatformbyArtintrex</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SDL_OpenGL_Switch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
