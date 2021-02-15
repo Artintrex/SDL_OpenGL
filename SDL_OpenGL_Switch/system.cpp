@@ -1,27 +1,3 @@
-/*
-A template for building multi-platform graphic applications using SDL2, OpenGL, GLEW, GLM, STB libraries. 
-
-This software is under the MIT license.
-
-Copyright (c) 2019 Egemen Gungor
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-*/
-
-
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_WARNINGS
 #endif
@@ -43,7 +19,6 @@ Float4 MakeFloat4(float r, float g, float b, float w) {
 	return Float4(r, g, b, w);
 }
 
-//Ortho Matrix Conversion from Nintendo API
 glm::mat4 OrthographicRightHanded(float width, float height, float nearClip, float farClip) {
 	float depth = (farClip - nearClip);
 
@@ -72,25 +47,6 @@ glm::mat4 OrthographicRightHanded(float width, float height, float nearClip, flo
 //Shader loading utility programs
 void printProgramLog(GLuint program);
 void printShaderLog(GLuint shader);
-
-//Controller Functions
-//Api includes nn::hid hid_NpadJoy, hid_Vibration, hid_NpadSixAxisSensor, hid_TouchScreen
-void InitController();
-void UninitController();
-void UpdateController();
-bool GetControllerPress(int button);
-bool GetControllerTrigger(int button);
-Float2 GetControllerLeftStick();
-Float2 GetControllerRightStick();
-void SetControllerLeftVibration(int frame);
-void SetControllerRightVibration(int frame);
-Float3 GetControllerLeftAcceleration();
-Float3 GetControllerRightAcceleration();
-Float3 GetControllerLeftAngle();
-Float3 GetControllerRightAngle();
-bool GetControllerTouchScreen();
-Float2 GetControllerTouchScreenPosition();
-
 
 //OpenGL context
 SDL_GLContext gContext;

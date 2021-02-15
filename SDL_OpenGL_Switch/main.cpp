@@ -43,8 +43,6 @@ int main(int argc, char* args[])
 					handleKeys(e.text.text[0], x, y);
 				}
 			}
-
-			//Ç±ÇøÇÁÇ©ÇÁèëÇ¢ÇƒÇ≠ÇæÇ≥Ç¢
 			glClearColor(0.0f, 0.0f, 0.5f, 1.0f);
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -73,8 +71,6 @@ int main(int argc, char* args[])
 
 			glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 
-
-			//èIÇÌÇË
 			SwapBuffers();
 		}
 		SDL_StopTextInput();
